@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="">
-          Navbar
+          StarWarsApp
         </a>
         <button
           class="navbar-toggler"
@@ -26,7 +26,7 @@ class NavBar extends Component {
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <Link to="/home" class="nav-link">
-                Pocetna <span class="sr-only">(current)</span>
+                Home <span class="sr-only">(current)</span>
               </Link>
             </li>
             <li class="nav-item">

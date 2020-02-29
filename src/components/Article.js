@@ -21,7 +21,7 @@ class Article extends Component {
 
   render() {
     var imgStyle = {
-      borderRadius: "10%",
+      borderRadius: "30%",
       width: "200px",
       height: "230px",
       marginTop: "2%"
@@ -53,6 +53,7 @@ class Article extends Component {
           aid={this.props.id}
           img={this.props.slidza}
           director={this.props.director}
+          key={this.props.id}
         />
         <br />
       </div>
